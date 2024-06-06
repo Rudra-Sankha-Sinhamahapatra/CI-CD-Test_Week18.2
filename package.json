@@ -8,18 +8,17 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "db:generate": "cd packages/db && npx prisma generate && cd ../..",
     "start-user-app": "cd ./apps/user-app && npm run start"
-
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "^2.0.2"
   },
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.2.4",
+  "packageManager": "npm@10.8.1",
   "workspaces": [
     "apps/*",
     "packages/*"
